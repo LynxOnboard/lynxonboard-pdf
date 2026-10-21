@@ -27,10 +27,10 @@ export interface WorkflowEditor {
 
 const categoryColors: Record<string, string> = {
   Input: '#60a5fa',
-  'Edit & Annotate': '#a5b4fc',
+  'Edit & Annotate': '#fca5a5',
   'Organize & Manage': '#c4b5fd',
   'Optimize & Repair': '#fcd34d',
-  'Secure PDF': '#fda4af',
+  'Secure PDF': '#fca5a5',
   Output: '#5eead4',
 };
 
@@ -290,8 +290,8 @@ export async function createWorkflowEditor(
             return html`<div
               style="
             width: 14px; height: 14px; border-radius: 50%;
-            background: #6366f1; border: 2px solid #1f2937;
-            box-shadow: 0 0 0 1px #6366f1; cursor: crosshair;
+            background: #ef4444; border: 2px solid #1f2937;
+            box-shadow: 0 0 0 1px #ef4444; cursor: crosshair;
           "
             ></div>`;
           };

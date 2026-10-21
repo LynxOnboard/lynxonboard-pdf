@@ -8,10 +8,10 @@ body.lp {
   --lp-text: #f3f3f1;
   --lp-text-2: #b4b4b0;
   --lp-dim: #8d8d89;
-  --lp-accent: #6366f1;
-  --lp-accent-hover: #4f46e5;
-  --lp-accent-2: #818cf8;
-  --lp-accent-3: #a5b4fc;
+  --lp-accent: #ef4444;
+  --lp-accent-hover: #dc2626;
+  --lp-accent-2: #f87171;
+  --lp-accent-3: #fca5a5;
   --lp-white: #f4f4f1;
   --lp-display: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
   --lp-mono:
@@ -22,7 +22,7 @@ body.lp {
 }
 
 body.lp ::selection {
-  background: rgba(99, 102, 241, 0.45);
+  background: rgba(239, 68, 68, 0.45);
   color: #fff;
 }
 
@@ -522,7 +522,7 @@ body.lp ::selection {
   pointer-events: none;
   background: radial-gradient(
     50% 42% at 50% 0%,
-    rgba(99, 102, 241, 0.16),
+    rgba(239, 68, 68, 0.16),
     transparent 70%
   );
 }
@@ -585,7 +585,7 @@ body.lp ::selection {
 .lp-hero-bg i:nth-child(5) {
   left: calc(50% - 28px - 168px);
   top: 392px;
-  background: rgba(99, 102, 241, 0.16);
+  background: rgba(239, 68, 68, 0.16);
 }
 
 .lp-hero-bg i:nth-child(6) {
@@ -1117,7 +1117,7 @@ body.lp ::selection {
 
 .lp-input:focus {
   border-color: var(--lp-accent);
-  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.18);
+  box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.18);
 }
 
 .lp-search-right {
@@ -1179,7 +1179,7 @@ body.lp ::selection {
 }
 
 .lp #tool-grid {
-  --tile-fg: #a5b4fc;
+  --tile-fg: #fca5a5;
 }
 
 .lp #tool-grid > .is-cat-edit-annotate {
@@ -1436,7 +1436,7 @@ body.lp ::selection {
   pointer-events: none;
   background: radial-gradient(
     60% 70% at 50% 110%,
-    rgba(99, 102, 241, 0.28),
+    rgba(239, 68, 68, 0.28),
     transparent 70%
   );
 }
@@ -1939,7 +1939,7 @@ body.lp ::selection {
 
 .lp #shortcut-search:focus {
   border-color: var(--lp-accent);
-  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.18);
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.18);
   outline: none;
 }
 
@@ -1951,7 +1951,7 @@ body.lp ::selection {
   padding: 12px 14px;
   border: 1px solid rgba(129, 140, 248, 0.25);
   border-radius: 10px;
-  background: rgba(99, 102, 241, 0.08);
+  background: rgba(239, 68, 68, 0.08);
 }
 
 .lp #shortcuts-tab-content > div:nth-child(2) p {
@@ -2010,7 +2010,7 @@ body.lp ::selection {
 
 .lp #shortcuts-list .shortcut-input:focus {
   border-color: var(--lp-accent);
-  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.18);
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.18);
 }
 
 .lp #preferences-tab-content h4 {
@@ -2092,19 +2092,19 @@ body.lp ::selection {
 .lp #reset-shortcuts-btn {
   height: 32px;
   padding: 0 12px;
-  border: 1px solid rgba(244, 63, 94, 0.35);
+  border: 1px solid rgba(239, 68, 68, 0.35);
   border-radius: 7px;
   font-size: 12.5px;
   font-weight: 600;
-  color: #fda4af;
+  color: #fca5a5;
   transition:
     background-color 0.15s,
     color 0.15s;
 }
 
 .lp #reset-shortcuts-btn:hover {
-  background: rgba(244, 63, 94, 0.14);
-  color: #fecdd3;
+  background: rgba(239, 68, 68, 0.14);
+  color: #fecaca;
 }
 
 .lp-cell.lp-stat:hover,
